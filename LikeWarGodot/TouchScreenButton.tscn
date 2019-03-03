@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://raccoon.5ced842a.png" type="Texture" id=1]
+
+[node name="TouchScreenButton" type="TouchScreenButton" index="0"]
+
+scale = Vector2( 648.493, 222.873 )
+normal = null
+pressed = null
+bitmask = null
+shape = null
+shape_centered = true
+shape_visible = true
+passby_press = false
+action = ""
+visibility_mode = 0
+
+[node name="raccoon.5ced842a" type="Sprite" parent="." index="0"]
+
+position = Vector2( 228.548, 400.158 )
+texture = ExtResource( 1 )
+
+
