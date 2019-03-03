@@ -1,0 +1,49 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ConnectServerTouchScreenButton.gd" type="Script" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 10, 10 )
+
+[node name="ConnectServerLabel" type="Label"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 147.0
+margin_bottom = 90.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+text = "Connect Server!"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="ConnectServerTouchScreenButton" type="TouchScreenButton" parent="." index="0"]
+
+position = Vector2( 70.2532, 45.4875 )
+scale = Vector2( 6, -1 )
+normal = null
+pressed = null
+bitmask = null
+shape = SubResource( 1 )
+shape_centered = true
+shape_visible = true
+passby_press = false
+action = ""
+visibility_mode = 0
+script = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
+
+[connection signal="pressed" from="ConnectServerTouchScreenButton" to="ConnectServerTouchScreenButton" method="_on_ConnectServerTouchScreenButton_pressed"]
+
+
