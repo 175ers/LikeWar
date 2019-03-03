@@ -8,9 +8,8 @@
 custom_solver_bias = 0.0
 extents = Vector2( 100, 100 )
 
-[node name="raccoon.5ced842a" type="Sprite" index="0"]
+[node name="raccoon.5ced842a" type="Sprite"]
 
-editor/display_folded = true
 position = Vector2( 244.058, 252.17 )
 texture = ExtResource( 1 )
 
@@ -30,7 +29,7 @@ visibility_mode = 0
 script = ExtResource( 2 )
 _sections_unfolded = [ "Transform" ]
 
-[node name="RichTextLabel" type="RichTextLabel" parent="." index="1"]
+[node name="LikeMeTextLabel" type="RichTextLabel" parent="." index="1"]
 
 anchor_left = 0.0
 anchor_top = 0.0

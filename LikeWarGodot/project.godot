@@ -11,7 +11,7 @@ config_version=3
 [application]
 
 config/name="LikeWarGodot"
-run/main_scene="res://raccoon.5ced842a.tscn"
+run/main_scene="res://IPAddArea.tscn"
 config/icon="res://icon.png"
 
 [display]
