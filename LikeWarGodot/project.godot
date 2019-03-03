@@ -14,6 +14,10 @@ config/name="LikeWarGodot"
 run/main_scene="res://IPAddArea.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+NetworkingNode="*res://NetworkingNode.tscn"
+
 [display]
 
 window/handheld/emulate_touchscreen=true

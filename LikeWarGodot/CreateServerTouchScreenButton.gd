@@ -20,5 +20,6 @@ func _ready():
 
 func _on_CreateServerTouchScreenButton_pressed():
 	print("Creating Server!")
-	networking.start_server("ServerPlayer")
+	#networking.start_server("ServerPlayer")
+	get_tree().get_root().get_node("NetworkingNode").start_server("ServerPlayer")
 

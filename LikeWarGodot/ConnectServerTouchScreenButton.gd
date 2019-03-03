@@ -23,4 +23,9 @@ func _on_ConnectServerTouchScreenButton_pressed():
 	#var server_ip = get_tree().get_root().find_node("EnterServerIPTextEdit", true).text
 	var server_ip = get_parent().get_parent().find_node("EnterServerIPTextEdit").text
 	print("The server's IP is: " + str(server_ip))
-	#network.join_server("player x", )
+	get_tree().get_root().get_node("/root/NetworkingNode").join_server("player x", server_ip)
+	print("Finished connecting to server")
+	
+	
+	
+	
